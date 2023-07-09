@@ -13,8 +13,8 @@ function NavBar() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
-        <a className="nav-link active" aria-current="page" href="#">Home</a>
-        <a className="nav-link" href="#">Features</a>
+        <Link className="nav-link active" aria-current="page" to={'/signin'}>Signin</Link>
+        <Link className="nav-link active" to={'/login'}>Login</Link>
       </div>
     </div>
   </div>

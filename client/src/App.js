@@ -14,7 +14,7 @@ function App() {
     <Route exact path='/Signin' element={< Signin />}></Route>
     </Routes>
   
-  //mongoimport --uri mongodb+srv://Gofood:Guru223418@@cluster0.cwmcitj.mongodb.net/GofoodMERN --collection food_item --jsonArray  --file "C:/Users/HP/Downloads/foodData2.json"
+  //mongoimport --uri mongodb+srv://Gofood:Guru223418@@cluster0.cwmcitj.mongodb.net/GofoodMERN --collection food_item --jsonArray  --file "C:\Users\HP\OneDrive\Documents\foodData2.json"
   );
 }
 
