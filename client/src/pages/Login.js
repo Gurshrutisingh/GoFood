@@ -36,6 +36,7 @@ function Login() {
         setUserErrors(result.mssg);
       }else{
         setUserErrors();
+        localStorage.setItem("userEmail",userEmail);
         localStorage.setItem("authToken",result.mssg);
         navigate('/');
       }
